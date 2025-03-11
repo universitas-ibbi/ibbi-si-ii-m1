@@ -31,6 +31,83 @@ Web design adalah proses merancang tampilan dan pengalaman pengguna (UI/UX) sebu
 
 ---
 
+## Repository
+
+[https://github.com/universitas-ibbi/ibbi-si-ii-m1](https://github.com/universitas-ibbi/ibbi-si-ii-m1)
+
+- Bahan Belajar
+- Contoh Lab
+- Info
+
+![bg right](./images/repository.png)
+  
+---
+
+## Web Development  
+
+Dalam web development, ada tiga jenis developer utama: **Frontend Developer, Backend Developer, dan Fullstack Developer**. Berikut penjelasannya:  
+
+---
+
+## **1️⃣ Frontend Developer**  
+👉 **Tugas**: Membangun tampilan dan interaksi yang bisa dilihat serta digunakan oleh pengguna di browser.  
+👉 **Fokus**: UI (User Interface) & UX (User Experience).  
+👉 **Teknologi yang digunakan**:  
+   - **HTML** → Membuat struktur halaman web.  
+   - **CSS** → Memberikan desain dan tata letak halaman web.  
+   - **JavaScript** → Menambahkan interaktivitas pada halaman.  
+   - **Framework**: React.js, Vue.js, Angular.  
+
+---
+
+👉 **Contoh Pekerjaan**:  
+   ✅ Desain tombol dan navigasi website.  
+   ✅ Membuat website responsif.  
+   ✅ Menampilkan data dari backend di browser.  
+
+---
+
+## **2️⃣ Backend Developer**  
+👉 **Tugas**: Mengelola logika bisnis, database, server, dan API.  
+👉 **Fokus**: Menyimpan, memproses, dan mengelola data dari frontend.  
+👉 **Teknologi yang digunakan**:  
+   - **Bahasa pemrograman**: PHP, Python, Node.js, Ruby, Java.  
+   - **Database**: MySQL, PostgreSQL, MongoDB.  
+   - **Framework**: Laravel (PHP), Express.js (Node.js), Django (Python).  
+  
+---
+
+👉 **Contoh Pekerjaan**:  
+   ✅ Membuat sistem login dan autentikasi.  
+   ✅ Menyimpan data pengguna di database.  
+   ✅ Mengelola transaksi di website e-commerce.  
+
+---
+
+## **3️⃣ Fullstack Developer**  
+👉 **Tugas**: Mengembangkan frontend dan backend sekaligus.  
+👉 **Fokus**: Bisa menangani tampilan UI dan pengolahan data di server.  
+👉 **Teknologi yang digunakan**:  
+   - **Frontend**: HTML, CSS, JavaScript, React.js, Vue.js.  
+   - **Backend**: Node.js, PHP, Python, Laravel, Django.  
+   - **Database**: MySQL, MongoDB, Firebase.  
+
+---
+
+👉 **Contoh Pekerjaan**:  
+   ✅ Membangun website lengkap dari frontend hingga backend.  
+   ✅ Mengembangkan sistem login dan dashboard pengguna.  
+   ✅ Mengelola API dan tampilan website sekaligus.  
+
+---
+
+### **Kesimpulan**  
+🔹 **Frontend Developer** → Fokus pada tampilan website.  
+🔹 **Backend Developer** → Fokus pada server, database, dan logika bisnis.  
+🔹 **Fullstack Developer** → Menguasai frontend & backend sekaligus.  
+
+---
+
 ## Cara Kerja Web
 
 * **User Request** → Browser mengakses www.example.com.
@@ -40,16 +117,6 @@ Web design adalah proses merancang tampilan dan pengalaman pengguna (UI/UX) sebu
 * **HTTP Response** → Server mengirimkan halaman web.
 * **Browser Render** → Menampilkan halaman ke pengguna.
 
----
-
-## Repository
-
-[https://github.com/universitas-ibbi/ibbi-si-ii-m1](https://github.com/universitas-ibbi/ibbi-si-ii-m1)
-
-- Bahan Belajar
-- Contoh Lab
-- Info
-  
 ---
 
 ## Tools
