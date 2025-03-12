@@ -17,14 +17,6 @@ _paginate: skip
 
 ---
 
-# JIMMY, S.Kom, M.Kom
-- Full Time Freelance Developer
-- Part Time Lecturer - Universitas IBBI
-
-![bg right](./images/linkedin.png)
-
----
-
 ## Web Design
 
 Web design adalah proses merancang tampilan dan pengalaman pengguna (UI/UX) sebuah website, termasuk tata letak, warna, font, gambar, dan interaktivitasnya. Tujuan utama web design adalah menciptakan website yang menarik, fungsional, dan mudah digunakan oleh pengunjung.
