@@ -30,10 +30,10 @@ Git adalah sistem kontrol versi terdistribusi (distributed version control syste
 
 📌 Cara kerja Git:
 
-- Local Repository → Git bekerja secara lokal di komputer pengembang tanpa memerlukan koneksi internet.
-- Staging Area → Perubahan yang dilakukan perlu ditambahkan ke staging sebelum di-commit.
-- Commit → Menyimpan perubahan sebagai versi baru.
-- Remote Repository → Perubahan bisa diunggah ke server seperti GitHub, GitLab, atau Bitbucket.
+- **Local Repository** → Git bekerja secara lokal di komputer pengembang tanpa memerlukan koneksi internet.
+- **Staging Area** → Perubahan yang dilakukan perlu ditambahkan ke staging sebelum di-commit.
+- **Commit** → Menyimpan perubahan sebagai versi baru.
+- **Remote Repository** → Perubahan bisa diunggah ke server seperti GitHub, GitLab, atau Bitbucket.
 
 ---
 
@@ -138,16 +138,6 @@ git diff --staged
 git reset nama_file.txt
 ```
 
-📌 **Membatalkan commit terakhir tapi menyimpan perubahan:**  
-```sh
-git reset --soft HEAD~1
-```
-
-📌 **Membatalkan commit terakhir dan menghapus perubahan:**  
-```sh
-git reset --hard HEAD~1
-```
-
 ---
 
 ## **Menghapus Perubahan Terakhir (`git revert`)**  
@@ -155,25 +145,6 @@ Menghapus commit terakhir dengan membuat commit baru.
 
 ```sh
 git revert HEAD
-```
-
----
-
-## **Menyimpan Perubahan Sementara (`git stash`)**  
-Menyimpan perubahan tanpa melakukan commit.  
-
-```sh
-git stash
-```
-
-📌 **Mengembalikan perubahan yang disimpan:**  
-```sh
-git stash pop
-```
-
-📌 **Melihat daftar perubahan yang disimpan:**  
-```sh
-git stash list
 ```
 
 ---
@@ -273,3 +244,14 @@ git clone https://github.com/torvalds/linux.git
 ```
 
 ---
+
+## Github Pages
+
+Deploy web static kamu dengan Github Pages
+
+```sh
+git checkout --orphan gh-pages
+git add .
+git commit -m "Deploy to GitHub Pages"
+git push -u origin gh-pages
+```
