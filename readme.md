@@ -35,3 +35,28 @@
 - DevTools: Debug & eksperimen real-time.
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-3](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-3)
+
+
+# Pertemuan 4
+
+## 🎯 Key Takeaways
+
+### ✅ HTML Table
+- Mahasiswa memahami struktur dasar tabel di HTML menggunakan `<table>`, `<tr>`, `<th>`, dan `<td>`.
+- Mampu mengorganisasi data ke dalam tabel dengan bagian `<thead>`, `<tbody>`, dan `<tfoot>`.
+- Dapat menggunakan atribut `colspan` dan `rowspan` untuk menggabungkan sel baris/kolom.
+- Mahasiswa mengetahui cara menambahkan **gaya (CSS)** ke tabel agar lebih rapi dan mudah dibaca.
+
+### ✅ HTML Form
+- Mahasiswa memahami cara membuat form menggunakan `<form>`, serta fungsi atribut `action` dan `method`.
+- Mampu menggunakan berbagai elemen form seperti:
+  - `<input>` dengan berbagai `type` (text, password, email, checkbox, radio, dll)
+  - `<label>` untuk memberikan konteks pada input
+  - `<textarea>` untuk input teks panjang
+  - `<select>` dan `<option>` untuk dropdown
+  - `<button>` atau `<input type="submit">` untuk pengiriman data
+- Mampu menambahkan **validasi dasar** pada form menggunakan atribut `required`, `minlength`, `maxlength`, dan `pattern`.
+- Mahasiswa mengerti perbedaan antara `GET` dan `POST` dalam pengiriman form.
+
+
+[https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-4](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-4)
