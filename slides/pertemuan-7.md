@@ -166,6 +166,8 @@ Bagian paling bawah dari halaman web yang biasanya berisi informasi tambahan ata
 
 Breadcrumbs (atau "jejak navigasi") adalah komponen navigasi yang menunjukkan **lokasi pengguna dalam struktur hierarki** situs web.
 
+![w:500](./images/pertemuan-7-breadcrumbs.png)
+
 ---
 
 ```html
@@ -446,8 +448,9 @@ Lomponen UI (User Interface) yang digunakan untuk menampilkan konten dalam bentu
 }
 ```
 
+---
+
 ### Others
 
 - Carousel
 - Modal
-- 
