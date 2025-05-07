@@ -29,19 +29,21 @@ _paginate: skip
 
 - Navbar (Navigation Bar)
 - Hero Section
-- Section/Container/Grid
 - Footer
 - Breadcrumbs
 - Pagination
 - Dropdown Menu
 - Badge
 - Progress Bar
+- Card
 
 ---
 
 ### Navbar (Navigation Bar)
 
 Navbar adalah komponen navigasi utama pada halaman web yang biasanya terletak di bagian atas (top) halaman. Fungsinya untuk memudahkan pengguna berpindah antar halaman atau bagian dalam situs.
+
+![](./images/pertemuan-7-navbar.png)
 
 ---
 
@@ -88,6 +90,8 @@ Navbar adalah komponen navigasi utama pada halaman web yang biasanya terletak di
 
 Hero section adalah area besar dan mencolok yang biasanya langsung terlihat saat halaman dibuka. Komponen ini bertujuan menarik perhatian dan menampilkan pesan utama.
 
+![](./images/pertemuan-7-hero.png)
+
 ---
 
 ```html
@@ -131,6 +135,12 @@ Hero section adalah area besar dan mencolok yang biasanya langsung terlihat saat
 ---
 
 ### Footer
+
+Bagian paling bawah dari halaman web yang biasanya berisi informasi tambahan atau navigasi sekunder.
+
+![](./images/pertemuan-7-footer.png)
+
+---
 
 ```html
 <!-- Footer -->
@@ -189,6 +199,8 @@ Breadcrumbs (atau "jejak navigasi") adalah komponen navigasi yang menunjukkan **
 
 Pagination adalah komponen yang digunakan untuk **membagi konten panjang menjadi beberapa halaman**, agar pengguna tidak harus scroll terlalu jauh.
 
+![](./images/pertemuan-7-pagination.png)
+
 ---
 
 ```html
@@ -235,6 +247,9 @@ Pagination adalah komponen yang digunakan untuk **membagi konten panjang menjadi
 ### Dropdown Menu
 
 Dropdown menu adalah komponen yang **menampilkan daftar pilihan ketika pengguna mengklik atau hover** pada elemen tertentu.
+
+
+![width:500px](./images/pertemuan-7-dropdown.png)
 
 ---
 
@@ -301,6 +316,8 @@ Dropdown menu adalah komponen yang **menampilkan daftar pilihan ketika pengguna 
 
 Menampilkan angka kecil atau label kecil di atas elemen lain untuk memberikan informasi tambahan.
 
+![w:500px](./images/pertemuan-7-badge.png)
+
 ---
 
 ```html
@@ -323,6 +340,8 @@ Menampilkan angka kecil atau label kecil di atas elemen lain untuk memberikan in
 ### Progress Bar
 
 Menampilkan kemajuan dari suatu proses dalam bentuk visual.
+
+![w:500px](./images/pertemuan-7-progress.png)
 
 ---
 
@@ -347,3 +366,88 @@ Menampilkan kemajuan dari suatu proses dalam bentuk visual.
   background-color: #4caf50;
 }
 ```
+
+---
+
+### Card
+
+Lomponen UI (User Interface) yang digunakan untuk menampilkan konten dalam bentuk blok persegi atau persegi panjang. Biasanya digunakan untuk menampilkan informasi ringkas seperti gambar, judul, deskripsi, dan tombol aksi.
+
+![](./images/pertemuan-7-card.png)
+
+---
+
+```html
+<div class="card">
+    <img src="https://picsum.photos/200" alt="Gambar" class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title">Judul Card</h5>
+        <p class="card-text">Ini adalah contoh deskripsi singkat di dalam card. Sangat cocok untuk konten ringkas.
+        </p>
+        <a href="#" class="btn">Lihat Selengkapnya</a>
+    </div>
+</div>
+```
+
+---
+
+```css
+.card {
+    width: 300px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+```
+
+---
+
+```css
+.card-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: #0b5ed7;
+}
+```
+
+### Others
+
+- Carousel
+- Modal
+- 

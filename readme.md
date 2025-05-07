@@ -66,3 +66,19 @@
   - Mahasiswa mampu menerapkan properti tersebut untuk membuat tampilan halaman web yang rapi dan responsif.
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-6](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-6)
+
+
+# Pertemuan 7
+
+Web Design Components
+- Navbar (Navigation Bar)
+- Hero Section
+- Footer
+- Breadcrumbs
+- Pagination
+- Dropdown Menu
+- Badge
+- Progress Bar
+- Card
+
+[https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-7](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-7)
