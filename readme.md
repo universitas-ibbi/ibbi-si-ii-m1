@@ -82,3 +82,14 @@ Web Design Components
 - Card
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-7](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-7)
+
+
+# Pertemuan 8
+
+- MID
+
+# Pertemuan 9
+
+Responsive Web Design
+
+[https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-9](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-9)
