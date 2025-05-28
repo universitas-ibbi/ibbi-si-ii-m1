@@ -14,6 +14,7 @@ _paginate: skip
 -->
 
 # Responsive Web Design
+
 ![bg right](./images/pertemuan-8-rwd.gif)
 
 ---
@@ -26,8 +27,8 @@ _paginate: skip
 
 ### Tujuan:
 
-* Menyediakan pengalaman pengguna optimal di semua perangkat
-* Mengurangi kebutuhan membuat versi website berbeda untuk tiap perangkat
+- Menyediakan pengalaman pengguna optimal di semua perangkat
+- Mengurangi kebutuhan membuat versi website berbeda untuk tiap perangkat
 
 ---
 
@@ -35,21 +36,18 @@ _paginate: skip
 
 Untuk memastikan halaman responsif di perangkat mobile, tambahkan tag berikut di dalam `<head>`:
 
-
 ![bg contain right](./images/pertemuan-8-viewport.webp)
 
 ---
 
 ```html
-<meta 
-  name="viewport" 
-  content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 ```
 
 **Penjelasan:**
 
-* `width=device-width`: Mengatur lebar viewport sesuai dengan lebar layar perangkat
-* `initial-scale=1.0`: Menentukan zoom awal saat halaman dimuat
+- `width=device-width`: Mengatur lebar viewport sesuai dengan lebar layar perangkat
+- `initial-scale=1.0`: Menentukan zoom awal saat halaman dimuat
 
 ---
 
@@ -67,8 +65,8 @@ Daripada menggunakan satuan tetap / absolute (seperti px), gunakan satuan relati
 
 **Penjelasan:**
 
-* `width: 90%`: Elemen menyesuaikan dengan 90% dari lebar layar
-* `max-width`: Membatasi lebar maksimal agar tidak terlalu lebar di layar besar
+- `width: 90%`: Elemen menyesuaikan dengan 90% dari lebar layar
+- `max-width`: Membatasi lebar maksimal agar tidak terlalu lebar di layar besar
 
 ---
 
@@ -76,7 +74,8 @@ Daripada menggunakan satuan tetap / absolute (seperti px), gunakan satuan relati
 
 ```css
 img {
-  max-width: 100%;
+  width: 90%;
+  max-width: 1200px;
   height: auto;
 }
 ```
@@ -97,11 +96,10 @@ body {
 
 **Media Queries** memungkinkan kita menerapkan CSS khusus berdasarkan lebar layar.
 
-
 ```css
 @media (max-width: 768px) {
   selector {
-    property: value
+    property: value;
   }
 }
 ```
@@ -137,35 +135,120 @@ nav {
 | Extra Large (Desktop) | `max-width: 1200px` | `@media (max-width: 1200px)` |
 | XXL (Large Desktop)   | `max-width: 1400px` | `@media (max-width: 1400px)` |
 
-
 ---
 
 ## **Navigasi Responsif (Hamburger Menu)**
 
+![](./images/pertemuan-9-navbar-collapsed.png)
+![](./images/pertemuan-9-navbar-expand.png)
+
+---
+
 ```html
-<button class="menu-toggle">Menu</button>
-<ul class="nav-links">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">About</a></li>
-</ul>
+<nav class="navbar">
+  <div class="logo">MyLogo</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+```
+
+---
+
+```css
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 ```
 
 ---
 
 ```css
 .nav-links {
+  list-style: none;
   display: flex;
+  gap: 1.5rem;
 }
 
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+```
+
+---
+
+```css
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+```
+
+---
+
+```css
+/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem;
   }
 
-  .menu-toggle {
-    display: block;
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }
 ```
 
+---
+
+```javascript
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+```
