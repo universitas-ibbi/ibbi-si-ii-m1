@@ -67,10 +67,10 @@
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-6](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-6)
 
-
 # Pertemuan 7
 
 Web Design Components
+
 - Navbar (Navigation Bar)
 - Hero Section
 - Footer
@@ -83,7 +83,6 @@ Web Design Components
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-7](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-7)
 
-
 # Pertemuan 8
 
 - MID
@@ -93,3 +92,9 @@ Web Design Components
 Responsive Web Design
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-9](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-9)
+
+# Pertemuan 10
+
+Framework CSS : Bootstrap
+
+[https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-10](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-10)
