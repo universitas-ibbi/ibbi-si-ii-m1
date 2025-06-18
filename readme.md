@@ -98,3 +98,9 @@ Responsive Web Design
 Framework CSS : Bootstrap
 
 [https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-10](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-10)
+
+# Pertemuan 12
+
+Responsive Web with Bootstrap
+
+[https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-12](https://universitas-ibbi.github.io/ibbi-si-ii-m1/pertemuan-12)
