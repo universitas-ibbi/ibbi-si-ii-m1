@@ -100,6 +100,8 @@ Position an element at the top of the viewport, from edge to edge, but only afte
 </div>
 ```
 
+---
+
 ## sticky bottom
 
 Position an element at the bottom of the viewport, from edge to edge, but only after you scroll past it.
